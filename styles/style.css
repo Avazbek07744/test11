@@ -6,6 +6,8 @@
 
 body {
   font-family: "Ubuntu";
+  margin-top: 150px;
+  margin-bottom: 150px;
 }
 
 .container {
@@ -159,6 +161,11 @@ section main a {
   padding: 10px;
   text-decoration: none;
   margin-top: 41px;
+  transition: all 0.5s linear;
+}
+section main a:hover {
+  background: rgb(0, 0, 222);
+  color: #fff;
 }
 
 section ul {
@@ -249,6 +256,11 @@ section .box p {
   text-align: center;
   text-decoration: none;
   padding: 20px 0;
+  transition: all 0.5s linear;
+}
+.section_container .box2 .box-info .buttons [href="#@"]:hover {
+  background: #fff;
+  color: rgb(0, 0, 222);
 }
 .section_container .box2 .box-info .buttons [href="#$"] {
   display: inline-block;
@@ -262,6 +274,11 @@ section .box p {
   text-align: center;
   text-decoration: none;
   padding: 20px 0;
+  transition: all 0.5s linear;
+}
+.section_container .box2 .box-info .buttons [href="#$"]:hover {
+  background: rgb(0, 0, 222);
+  color: #fff;
 }
 .section_container .box2 .box-img {
   width: 433px;
@@ -287,6 +304,14 @@ section .cards3 .card4 {
   border-radius: 10px;
   padding: 26px 30px;
   background: rgb(240, 244, 248);
+  transition: all 0.5s linear;
+}
+section .cards3 .card4:hover {
+  background: rgba(69, 69, 211, 0.751);
+  color: #fff;
+}
+section .cards3 .card4:hover .ul li a {
+  color: #fff;
 }
 section .cards3 .card4 .card-head {
   display: flex;
